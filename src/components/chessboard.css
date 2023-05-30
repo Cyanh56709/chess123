@@ -1,0 +1,20 @@
+#chessboard {
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    width: 800px;
+    height: 800px;
+}
+
+#pawn_promotion {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(1, 100px);
+    width: 400px;
+    height: 100px;
+}
